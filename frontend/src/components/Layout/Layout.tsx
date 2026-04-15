@@ -1,8 +1,8 @@
-import { ReactNode } from 'react';
+import * as React from 'react';
 import { NavLink } from 'react-router-dom';
 
 interface LayoutProps {
-  children: ReactNode;
+  children: React.ReactNode;
 }
 
 const Layout = ({ children }: LayoutProps) => {
