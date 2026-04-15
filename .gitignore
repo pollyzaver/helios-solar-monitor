@@ -1,0 +1,28 @@
+# Зависимости
+node_modules/
+frontend/node_modules/
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Файлы окружения
+.env
+.env.local
+
+# Сборки
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Базы данных
+*.db
+*.sqlite

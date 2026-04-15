@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-helios-dark text-helios-text;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-helios-card;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-helios-sun/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-helios-sun;
+}
